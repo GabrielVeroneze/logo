@@ -1,0 +1,18 @@
+.receber__titulo {
+    font-size: 1.85rem;
+    font-weight: 400;
+    margin: 1.30rem 0 1.65rem 0;
+}
+
+@media screen and (max-width: 450px) {
+    .receber__titulo {
+        line-height: 2.75rem;
+        margin-bottom: 1.20rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .receber__titulo {
+        margin-bottom: 1.30rem;
+    }
+}

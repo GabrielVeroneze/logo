@@ -1,0 +1,10 @@
+.receber__label {
+    font-size: 0.925rem;
+    margin: 0 0 0.25rem 0;
+}
+
+@media screen and (max-width: 320px) {
+    .receber__label {
+        font-weight: 400;
+    }
+}

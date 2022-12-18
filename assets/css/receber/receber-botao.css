@@ -1,0 +1,7 @@
+.receber__botao {
+    background: var(--cor-botao);
+    font-size: 0.925rem;
+    margin: 0 0 0.25rem 0;
+    padding: 0.75rem 0;
+    width: 100px;
+}

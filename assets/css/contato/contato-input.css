@@ -1,0 +1,17 @@
+.contato__input {
+    border: 1px solid var(--cor-cinza-muito-claro);
+    font-size: 0.97rem;
+    margin: 0 0 1rem 0;
+    padding: 1.125rem 0.5rem;
+}
+
+.contato__input::placeholder {
+    color: var(--cor-texto-placeholder-2);
+    font-family: var(--fonte-padrao);
+}
+
+@media screen and (max-width: 320px) {
+    .contato__input {
+        font-size: 0.935rem;
+    }
+}

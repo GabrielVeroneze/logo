@@ -1,0 +1,5 @@
+.plano {
+    background: var(--cor-preto);
+    display: flex;
+    height: 40px;
+}

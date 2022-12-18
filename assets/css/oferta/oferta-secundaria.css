@@ -1,0 +1,54 @@
+.oferta__secundaria {
+    align-items: flex-end;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    padding: 0.75rem 1rem;
+}
+
+.oferta__secundaria:nth-child(2) {
+    background-image: url('../../img/newyork.jpg');
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.oferta__secundaria:nth-child(3) {
+    background-image: url('../../img/sanfran.jpg');
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.oferta__secundaria:nth-child(4) {
+    background-image: url('../../img/pisa.jpg');
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.oferta__secundaria:nth-child(5) {
+    background-image: url('../../img/paris.jpg');
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+@media screen and (max-width: 450px) {
+        
+    .oferta__secundaria:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .oferta__secundaria:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .oferta__secundaria:nth-child(4) {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .oferta__secundaria:nth-child(5) {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+}

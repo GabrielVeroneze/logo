@@ -1,0 +1,17 @@
+.oferta__principal {
+    align-items: flex-end;
+    background-image: url('../../img/cinqueterre.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    padding: 0.75rem 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .oferta__principal {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+}

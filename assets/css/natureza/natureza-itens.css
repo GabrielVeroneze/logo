@@ -1,0 +1,10 @@
+.natureza__itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+    .natureza__itens {
+        flex-direction: column;
+    }
+}

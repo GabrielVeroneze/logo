@@ -1,0 +1,11 @@
+.card__preco {
+    color: var(--cor-preco-cinza);
+    font-size: 0.95rem;
+    margin: 0 0 1.25rem 0;
+}
+
+@media screen and (max-width: 320px) {
+    .card__preco {
+        font-size: 0.935rem;
+    }
+}

@@ -1,0 +1,13 @@
+.plano__icone {
+    color: var(--cor-branco);
+    margin: 0 1rem 0 0;
+}
+
+.plano__icone--voo {
+    font-size: 0.8rem;
+    transform: rotate(315deg);
+}
+
+.plano__icone--hotel {
+    font-size: 0.8rem;
+}

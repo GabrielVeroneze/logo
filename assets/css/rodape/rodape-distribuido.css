@@ -1,0 +1,9 @@
+.rodape__distribuido {
+    color: var(--cor-cinza-claro);
+    font-size: 0.935rem;
+    margin: 0 0 2.25rem 0;
+}
+
+.rodape__distribuido > a {
+    text-decoration: underline;
+}

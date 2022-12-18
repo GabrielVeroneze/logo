@@ -1,0 +1,8 @@
+.cabecalho__logo {
+    color: var(--cor-laranja);
+}
+
+.cabecalho__logo > a {
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,11 @@
+.receber__input {
+    border: 1px solid var(--cor-cinza-muito-claro);
+    font-family: var(--fonte-padrao);
+    font-size: 0.945rem;
+    margin: 0 0 1rem 0;
+    padding: 0.625rem 0.45rem;
+}
+
+.receber__input::placeholder {
+    color: var(--cor-texto-placeholder);
+}

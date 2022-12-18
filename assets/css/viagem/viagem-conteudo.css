@@ -1,0 +1,19 @@
+.viagem__conteudo {
+    background: var(--cor-branco);
+    height: 40%;
+    width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+    .viagem__conteudo {
+        height: 70%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .viagem__conteudo {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.natureza__texto {
+    font-size: 0.95rem;
+    margin: 0 0 1.25rem 0;
+}
+
+@media screen and (max-width: 320px) {
+    .natureza__texto {
+        font-size: 0.935rem;
+    }
+}

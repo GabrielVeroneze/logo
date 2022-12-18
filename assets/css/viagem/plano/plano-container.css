@@ -1,0 +1,23 @@
+.plano__container {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.plano__container ~ input {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .plano__container {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .plano__container {
+        width: 33.33%;
+    }
+}

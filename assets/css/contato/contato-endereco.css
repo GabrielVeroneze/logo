@@ -1,0 +1,12 @@
+.contato__endereco {
+    font-size: 0.945rem;
+    margin: 0 0 0.45rem 0;
+}
+
+.contato__endereco > a {
+    margin: 0 1.175rem 0 0;
+}
+
+.contato__endereco i {
+    font-size: 0.85rem;
+}

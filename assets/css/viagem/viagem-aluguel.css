@@ -1,0 +1,8 @@
+.viagem__aluguel {
+    align-items: center;
+    color: var(--cor-cinza-muito-claro);
+    display: none;
+    font-size: 5rem;
+    height: calc(100% - 40px);
+    justify-content: center;
+}

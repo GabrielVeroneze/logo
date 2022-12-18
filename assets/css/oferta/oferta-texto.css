@@ -1,0 +1,20 @@
+.oferta__texto {
+    font-size: 1.05rem;
+    margin: 0 0 0.9rem 0;
+}
+
+.oferta__texto > strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .oferta__texto {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .oferta__texto > strong {
+        font-weight: 600;
+    }
+}

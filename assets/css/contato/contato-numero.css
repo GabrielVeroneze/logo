@@ -1,0 +1,12 @@
+.contato__numero {
+    font-size: 0.945rem;
+    margin: 0 0 0.45rem 0;
+}
+
+.contato__numero > a {
+    margin: 0 0.95rem 0 0;
+}
+
+.contato__numero i {
+    font-size: 0.85rem;
+}

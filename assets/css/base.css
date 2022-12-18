@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --fonte-padrao: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    --cor-botao: #f38981;
+    --cor-branco: #ffffff;
+    --cor-branco-fundo: #f1f1f1;
+    --cor-cinza-muito-claro: #cccccc;
+    --cor-cinza-claro: #757575;
+    --cor-cinza-escuro: #616161;
+    --cor-laranja: #f44336;
+    --cor-preco-cinza: #a4a4a4;
+    --cor-preto: #000000;
+    --cor-texto-receber: #f9f9f9;
+    --cor-texto-placeholder: #c3c3c3;
+    --cor-texto-placeholder-2: #908887;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.principal {
+    background: var(--cor-branco-fundo);
+}
+
+.container {
+    margin: 0 9.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 1rem;
+    }
+}

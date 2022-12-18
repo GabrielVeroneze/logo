@@ -1,0 +1,13 @@
+.viagem__input {
+    border: 1px solid var(--cor-cinza-muito-claro);
+    font-family: var(--fonte-padrao);
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 450px) {
+    .viagem__input {
+        font-size: 0.935rem;
+        padding: 0.625rem 0.5rem;
+    }
+}
